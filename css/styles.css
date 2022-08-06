@@ -1,121 +1,142 @@
-body{
+body {
   margin: 0;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.bottom-cloud{
+a {
+  color: #4AB19A;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+.bottom-cloud {
   position: absolute;
   top: 330px;
   left: 130px;
   width: 150px;
 }
 
-.top-container{
-  background-color: #E0EBE8;
-  /* position: relative; */
-}
-
-.middle-container{
-margin: 70px 0;
-}
-
-.bottom-container{
+.bottom-container {
   background-color: #3E9C87;
   padding: 50px 0 20px;
 }
 
-.skill-row{
+.bottom-links {
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  /* text-align: center; */
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 15px;
+  background: #3E9C87;
+  padding: 13px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+
+.copyright-message {
+  /* margin-bottom: 0px; */
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
+
+
+.contact-description {
   width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
+  margin: 40px auto 60px;
 }
 
-.profile-picture{
-  height: 130px;
-  width: 25%;
-}
-
-.design{
+.design {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
 
-.develop{
+.develop {
   width: 25%;
   float: right;
   margin-left: 30px;
 }
 
-.main-name{
-  height: 200px;
-  width: 350px;
+.footer-link {
+  color: white;
+  font-weight: lighter;
+  margin: 0 20px;
 }
 
-hr{
+hr {
   border: dotted #EAF6F6 6px;
   border-bottom: none;
   width: 4%;
   margin: 70px auto;
 }
 
-h2{
+h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
   color: #4AB19A;
   font-weight: normal;
 }
 
-h3{
+h3 {
   font-family: 'Josefin Sans', sans-serif;
   color: #45B29A;
   font-weight: bold;
 }
 
-a{
-  color: #4AB19A;
-  text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: bold;
+.intro {
+  margin: auto;
+  width: 50%;
+  line-height: 2;
 }
 
-.top-cloud{
-  position: absolute;
-  /* margin-top: 60px; */
-  top: 150px;
-  right: 210px;
-  width: 100px;
-}
-
-.land{
+.land {
   width: 800px;
   padding-top: 100px;
   margin-bottom: 0
 }
 
-.navbar{
+.main-name {
+  height: 200px;
+  width: 350px;
+}
+
+.middle-container {
+  margin: 70px 0;
+}
+
+.navbar {
   height: 120px;
   padding-bottom: 0;
 }
 
-.navbar-elements{
+.navbar-elements {
   width: 320px;
   position: absolute;
   right: 130px;
   top: 50px;
 }
 
-.navbar-links{
+.navbar-links {
   text-decoration: none;
   font-weight: lighter;
   font-size: 1.2rem;
   display: inline-block;
-  width: 100px;
+  margin: 0 20px;
 }
 
-.navbar-icon{
+.navbar-icon {
   height: 70px;
   width: 70px;
   position: absolute;
@@ -129,65 +150,42 @@ p{
   line-height: 2;
 }
 
-.pro{
+.pro {
   text-decoration: underline;
 }
 
-.programmer{
+.programmer {
   margin-top: 0;
   font-size: 1.5rem;
 }
 
-.btn {
-  background: #4AB19A;
-  background-image: -webkit-linear-gradient(top, #4AB19A, #288a72);
-  background-image: -moz-linear-gradient(top, #4AB19A, #288a72);
-  background-image: -ms-linear-gradient(top, #4AB19A, #288a72);
-  background-image: -o-linear-gradient(top, #4AB19A, #288a72);
-  background-image: linear-gradient(to bottom, #4AB19A, #288a72);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #ffffff;
-  font-size: 23px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+.profile-picture {
+  height: 130px;
+  width: 25%;
 }
 
-.btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
-}
-
-.intro{
-  margin: auto;
+.skill-row {
   width: 50%;
+  margin: 100px auto;
+  text-align: left;
   line-height: 2;
 }
 
-.contact-description{
+.top-container {
+  background-color: #E0EBE8;
+  /* position: relative; */
+}
+
+.top-cloud {
+  position: absolute;
+  /* margin-top: 60px; */
+  top: 150px;
+  right: 210px;
+  width: 100px;
+}
+
+.work {
   width: 50%;
-  margin: 40px auto 60px;
-}
-
-.footer-link{
-  color: white;
-  font-weight: lighter;
-  margin: 0 20px;
-}
-
-.copyright-message{
-  margin-bottom: 0px;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
-.bottom-links{
-  margin-bottom: 40px;
+  margin: 0 auto;
+  line-height: 2;
 }
